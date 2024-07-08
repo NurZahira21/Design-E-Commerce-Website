@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beli Dong</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+      <div class="container-fluid">
+          <img src="img/logo.png" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span<i id="bar" class="fas fa-bars"></i></span> -->
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            
+              <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="akun.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <i class="fal fa-search"></i>
+              <!-- <i class="fal fa-shopping-bag"></i> -->
+              <a class="nav-link active" href="cart.html"><i class="fal fa-shopping-bag"></i></a>
+              <!-- <i> <a class="nav-link active" href="cart.html"><fal fa-shopping-bag></a></i> -->
+               </li>
+
+        </div>
+      </div>
+    </nav>
+
+    <section id="blog-home" class="pt-5 mt-5 container">
+            <h2 class="font-weight-bold pt-5">Keranjang Belanja</h2>
+    </section>
+
+    <section id="cart-container" class="container my-5">
+        <table width="100%">
+          <thead>
+            <tr>
+              <td>Hapus</td>
+              <td>Image</td>
+              <td>Produk</td>
+              <td>Harga Satuan</td>
+              <td>Kuantitas</td>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+                <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
+                <td><img src="img/shoes/1.jpg" alt=""></td>
+                <td>
+                    <h5>COLORBOX Knitted Slip On Shoes
+                    </h5>
+                </td>
+                <td>
+                    <h5>Rp239.920</h5>
+                </td>
+                <td><input class="w-25 pl-1" value="1" type="number"></td>
+      
+            </tr>
+            <tr>
+                <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
+                <td><img src="img/beauty/1.jpg" alt=""></td>
+                <td>
+                    <h5>Love & Plum Shimmer Mist 100ml
+                    </h5>
+                </td>
+                <td>
+                    <h5>Rp174.500</h5>
+                </td>
+                <td><input class="w-25 pl-1" value="1" type="number"></td>
+                
+            </tr>
+            <tr>
+                <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
+                <td><img src="img/clothes/2.jpg" alt=""></td>
+                <td>
+                    <h5>Erigo Flannel
+                    </h5>
+                </td>
+                <td>
+                    <h5>Rp120.000</h5>
+                </td>
+                <td><input class="w-25 pl-1" value="1" type="number"></td>
+                
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="cart-bottom" class="container">
+        <div class="row">
+          <div class="voucher col-lg-6 col-md-6 col-12 mb-4">
+            <div>
+                <h5>Voucher BeliDong</h5>
+                <p>Gunakan/Masukkan Kode
+                </p>
+                <input type="text" placeholder="masukkan kode">
+                <button>OK</button>
+            </div>
+            </div>
+            <div class="total col-lg-6 col-md-6 col-12">
+                <div>
+                     <h5>TOTAL
+                     </h5>
+                     <div class="d-flex justify-content-between">
+                          <h6>Total</h6>
+                          <p>Rp534.400
+                          </p>
+                     </div>
+                     <div class="d-flex justify-content-between">
+                       <h6>Ongkir</h6>
+                       <p>Rp20.000
+                       </p>
+                       </div>
+                       <hr class="second-hr">
+                       <div class="d-flex justify-content-between">
+                        <h6>Total Harga</h6>
+                        <p>Rp554.400
+                        </p>
+                  </div>
+                     <button class="ml-auto">CHECKOUT</button>
+                </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="mt-5 py-5">
+        <div class="row container mx-auto pt-5">
+          <div class="footer-one col-lg-3 col-md-6 col-12">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+          <h5 class="pb-2">Featured</h5>
+          <ul class="text-uppercase list-unstyled">
+            <li><a href="#">men</a></li>
+            <li><a href="#">women</a></li>
+            <li><a href="#">boys</a></li>
+            <li><a href="#">girls</a></li>
+            <li><a href="#">new arrivals</a></li>
+          
+          </ul>
+        </div>
+        <div class="footer-one col-lg-3 col-md-6 col-12">
+          <h5 class="pb-2"> Login </h5>
+          <div>
+            <h6 class="text-uppercase">Alamat</h6>
+            <p>123 Jalan, Kota, Indonesia</p>
+          </div>
+          <div>
+            <h6 class="text-uppercase">Phone</h6>
+            <p>(+62)8123456</p>
+          </div>
+          <div>
+            <h6 class="text-uppercase">Email</h6>
+            <p>BeliDong@gmail.com</p>
+          </div>
+        </div>
+  
+        <div class="copyright mt-5">
+          <div class="row container mx-autp">
+  
+              <div class="col-lg-3 col-md-6 col-12 mb-4">
+                <img src="img/pembayaran2.png" alt="">
+                </div>
+              <div class="col-lg-4 col-md-6 col-12"> 
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+        </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</body>
+</html>
